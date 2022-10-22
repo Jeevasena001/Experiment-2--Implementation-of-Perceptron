@@ -44,10 +44,14 @@ Print the accuracy
 
  PROGRAM:
       import numpy as np
-     import pandas as pd
+      import pandas as pd
+      
  import matplotlib.pyplot as plt
+ 
  from mpl_toolkits import mplot3d
+ 
  from sklearn.model_selection import train_test_split
+ 
  from sklearn.metrics import accuracy_score
 
 class Perceptron:
@@ -120,14 +124,14 @@ def plot_decision_regions(x, y):
     plot_decision_regions(x_test, y_test)
     
     
-    OUTPUT:
+  OUTPUT:
     
-    ![193039675-9e754f1d-23d7-47a6-b745-a7cbc675571a](https://user-images.githubusercontent.com/116435584/197335967-4f365ee4-5ead-4865-a23a-0d8a22a5b7be.png)
+  ![193039675-9e754f1d-23d7-47a6-b745-a7cbc675571a](https://user-images.githubusercontent.com/116435584/197335967-4f365ee4-5ead-4865-a23a-0d8a22a5b7be.png)
 
 
 
 
-    ![193039702-7866cfac-d0de-46de-af55-4a989d768b61](https://user-images.githubusercontent.com/116435584/197335974-65a0eb18-5d91-43ee-83e1-77eaad5c7163.png)
+   ![193039702-7866cfac-d0de-46de-af55-4a989d768b61](https://user-images.githubusercontent.com/116435584/197335974-65a0eb18-5d91-43ee-83e1-77eaad5c7163.png)
 
 
 
